@@ -4,13 +4,15 @@
 
 ### Descrição do Projeto
    * Esse projeto tem o intuito realizar operações matemáticas e de aprender e aprimorar os conhecimentos relacionados a lista ligada e pilha, Primeiramente o usuário digita uma expressão matemática, contendo apenas letras ou uso de parênteses, as letras podendo ser negativas ou não, em relação aos parênteses, pode-se dizer que esse é o grande diferencial do projeto, ele consegue realizar operações respeitando as leis matemáticas e as prioridades de operações. 
-  * Após o usuário pressionar *ENTER*, o programa executará uma função, responsável por *desempilhar a expressão* para verificar sua validade, pois precisa analisar a formatação dos parênteses digitadas e ocorrências ne número, alertando o usuário e permitindo que ele reescreva a expressão corretamente, abaixo podemos estar observando uma simulação do programa em tempo de execução:
+  * Após o usuário pressionar *ENTER*, o programa executará uma função, responsável por *desempilhar a expressão* para verificar sua validade, pois precisa analisar a formatação dos parênteses digitadas e ocorrências ne número, alertando o usuário e permitindo que ele reescreva a expressão corretamente. Após a verificação, a expressão no formato *INFIXA*, como nós descrevemos, considerada um notação tradicional, onde o operador aparece entre os seus dois operandos, é transformada em *PÓS-FIXA* com um auxílio de uma pilha. A notação *PÓS-FIXA*, conhecida também, como notação polonesa inversa, o operador é colocado após os seus dois operandos. Precisa-se realizar essa transformação, pois é através da função *PÓS-FIXA* que o programa irá realizar os cálculos e respeitas as prioridades da expressão, abaixo podemos estar observando uma simulação do programa em tempo de execução:
    
 * Abaixo pode ser observado a "entrada dos dados", o comportamento do programa e o que é impresso:
 ![calculadora](https://user-images.githubusercontent.com/56207941/66770722-aefb9200-ee8e-11e9-9303-2bf02e41e7dc.PNG)
 
 * Agora pode-se observar o que ocorre caso o usuário digita uma expressão inválida, o programa verifica essas 3 condições e retorna a mensagem de erro:
 ![Erro Calculadora](https://user-images.githubusercontent.com/56207941/66770871-0f8acf00-ee8f-11e9-8cb9-c8338761692c.PNG)
+
+* <a> [Entenda a diferença e transformação de *INFIXA* para *PÓS-FIXA*](http://www.vision.ime.usp.br/~pmiranda/mac122_2s14/aulas/aula13/aula13.html)
 
  ### Pré-requisitos
 
